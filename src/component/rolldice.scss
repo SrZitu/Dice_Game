@@ -1,0 +1,15 @@
+$background: #0b132b;
+$dieColor: #b2f7ef;
+.rollDice button {
+  width: 12rem;
+  padding: 1.5rem;
+  background-color: $background;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 5rem;
+  &:hover {
+    background-color: $dieColor;
+    cursor: pointer;
+  }
+}
